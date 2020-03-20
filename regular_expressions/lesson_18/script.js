@@ -23,7 +23,7 @@ $("#but3").click(function(){
 		alert("нет");
 });
 
-//я так и не понял как проверить дату на достоверность, так что здесь проверяется просто формат 
+
 $("#but4").click(function(){
 	if(/^\d\d[.]\d\d[.]\d{4}$/.test(document.getElementById("4").value))
 		alert("это дата");
@@ -31,7 +31,7 @@ $("#but4").click(function(){
 		alert("это не дата");
 });
 
-//буду краток. Это не я ленивый, такова природа емейлов
+
 $("#but5").click(function(){
 	if(/.@{1}./.test(document.getElementById("5").value))
 		alert("это мейл");
